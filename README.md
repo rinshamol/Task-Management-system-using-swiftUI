@@ -23,26 +23,8 @@ A SwiftUI iOS app for managing tasks, built with **MVVM architecture**. Users ca
 | Architecture| MVVM           |
 | Platform    | iOS 16.0+      |
 
----
 
-## 📂 Project Structure
 
-```
-Task-Management-system-using-swiftUI/
-│
-├── Models/
-│   └── Task.swift               # Task data model with UUID
-│
-├── ViewModels/
-│   └── TaskViewModel.swift      # Business logic with @Published
-│
-├── Views/
-│   ├── ContentView.swift        # Main task list view
-│   ├── AddTaskView.swift        # Add/Edit task form
-│   └── TaskRowView.swift        # Individual task row
-│
-└── TaskManagementApp.swift      # App entry point
-```
 
 ---
 
